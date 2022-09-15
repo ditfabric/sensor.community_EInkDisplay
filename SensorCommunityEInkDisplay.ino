@@ -1,4 +1,4 @@
-// PINNING E-INK to ModeMCU: // BUSY -> D2, RST -> D2 (!), DC -> D3, CS -> D8, CLK -> D5, DIN -> D7, GND -> GND, 3.3V -> 3.3V
+// PINNING E-INK to ModeMCU: // BUSY -> D2, RST -> D1 (!), DC -> D3, CS -> D8, CLK -> D5, DIN -> D7, GND -> GND, 3.3V -> 3.3V
 // connect NodeMCU RST pin to D1 to provide wake up from deep sleep
 
 #include <GxEPD.h>
